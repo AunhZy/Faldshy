@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bar2.css" />
+    <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="bar3.js" defer></script>
+  </head>
+  <body>
+    
+    <nav class="sidebar locked">
+      <div class="logo_items flex">
+        <span class="nav_image">
+          <img src="menu.png" alt="logo_img" />
+        </span>
+        <span class="logo_name">Website</span>
+        <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
+        <i class="bx bx-x" id="sidebar-close"></i>
+      </div>
+
+      <div class="menu_container">
+        <div class="menu_items">
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Menu</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="bar1.html" class="link flex">
+                <i class="bx bx-home-alt"></i>
+                <span >Home</span>
+              </a>
+            </li>
+            
+          </ul>
+
+
+          <ul class="menu_item">
+            
+            <li class="item">
+              <a href="bar-history.html" class="link flex">
+                <i class="bx bx-flag"></i>
+                <span>History</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="sidebar_profile flex">
+          <span class="nav_image">
+            <img src="pict.jpeg" alt="logo_img" />
+          </span>
+          <div class="data_text">
+            <li class="item">
+                <a href="logout.php" class="link flex">
+                    <i class="bx bx-log-out"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+          </div>
+        </div>
+      </div>
+      
+    </nav>
+    <nav class="navbar flex">
+      <i class="bx bx-menu" id="sidebar-open"></i>
+      
+    </nav>
+    <div class="content-container" id="tab1">
+        <!-- Konten untuk Tab 1 -->
+        <h1>Welcome To History</h1>
+        <br>
+        <h2>Check Your History </h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Date</th>
+              <th>Time</th>
+            </tr>
+            
+          </thead>
+          <h2>Today Full History</h2>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+              </tr>
+              <tr><td>3</td>
+                <td>01/01/2024</td>
+                <td>00:00</td>
+              </tr>
+            </tr>
+            <tr><td>3</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr></tr>
+            <tr><td>3</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr></tr>
+            <tr><td>3</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr></tr>
+            <tr><td>3</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr></tr>
+            <tr><td>3</td>
+              <td>01/01/2024</td>
+              <td>00:00</td>
+            </tr>
+            <!-- Tambahkan baris tabel sesuai kebutuhan -->
+          </tbody>
+        </table>
+      </div>
+    
+      <div class="content-container" id="tab2" style="display: none;">
+        <!-- Konten untuk Tab 2 -->
+        <h2>Table 2</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Produk</th>
+              <th>Harga</th>
+              <th>Stok</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Laptop</td>
+              <td>$1000</td>
+              <td>10</td>
+            </tr>
+            <!-- Tambahkan baris tabel sesuai kebutuhan -->
+          </tbody>
+        </table>
+       
+      </div>
+    
+  </body>
+</html>
